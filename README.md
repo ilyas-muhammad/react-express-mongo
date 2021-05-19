@@ -1,6 +1,6 @@
 # REACT EXPRESS MONGO
 
-Follow the steps below to get started using this boilerplate for your project!
+Follow the steps below to get started!
 
 ### Prerequisites
 • Node - version >= 7  

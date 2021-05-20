@@ -1,6 +1,7 @@
 import { todoReducer as todo } from './todoReducer'
 import {combineReducers} from 'redux';
 import { IndexActionTypes } from '../actionTypes';
+import { loginReducer as login } from './loginReducer';
 
 const initialState = {
     isFetching: true
@@ -30,4 +31,4 @@ export function reducer(state = initialState, action) {
     }
 }
 
-export default combineReducers({todo})
+export default combineReducers({todo, login})

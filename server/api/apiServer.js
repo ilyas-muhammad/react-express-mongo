@@ -8,9 +8,10 @@ const port = config.apiPort;
 
 const app = new Express();
 app.use(bodyParser.urlencoded({extended: false}));
-app.use(bodyParser.json({ type: 'application/*+json' }));
+app.use(bodyParser.json({ type: 'application/json' }));
 
 app.use('/', require('./routes/todo.router'));
+app.use('/', require('./routes/login.router'));
 
 mongoose.Promise = require('bluebird');
 mongoose.connect(`mongodb://${config.dbHost}:${config.dbPort}/${config.dbName}`, function (err) {

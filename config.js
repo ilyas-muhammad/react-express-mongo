@@ -5,16 +5,16 @@ module.exports = {
     apiPort:process.env.APIPORT || '3030',
     dbHost:"localhost",
     dbPort:"27017",
-    dbName: "bot-manager",
+    dbName: "react-express-mongo",
     app:{
-        title:"Todo Manager",
-        description:'Todo Manager for add, remove, edit and delete bot.',
+        title:"React Express Mongo",
+        description:'React Express Mongo Apps.',
         head:{
-            titleTemplate:'Todo Manager',
+            titleTemplate:'React Express Mongo',
             meta:[
                 {
                     name:"description",
-                    content:"Todo Manager for add, remove, edit and delete bot."
+                    content:"React Express Mongo Apps."
                 },
                 {charset:"utf-8"}
             ]
